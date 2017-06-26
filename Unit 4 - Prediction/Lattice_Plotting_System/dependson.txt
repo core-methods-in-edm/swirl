@@ -1,0 +1,4 @@
+lattice
+ggplot2
+
+base64enc
