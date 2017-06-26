@@ -245,9 +245,9 @@
   Hint: If your programming environment doesn't support auto-completion, just type my_div and hit Enter to move on.
 
 - Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so
-    that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
+  Output: You will now be redirected to Google Forms to submit your the log file of this lesson.
+  AnswerChoices: Ok
   CorrectAnswer: NULL
   AnswerTests: submit_log()
   Hint: hint
+  
