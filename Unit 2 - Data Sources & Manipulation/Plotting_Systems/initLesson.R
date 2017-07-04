@@ -17,3 +17,5 @@ state <- data.frame(state.x77, region = state.region)
 path_to_course <- file.path(.get_course_path(),
 	"Exploratory_Data_Analysis","Plotting_Systems")
 plot.new()
+
+swirl_options(swirl_logging = TRUE)

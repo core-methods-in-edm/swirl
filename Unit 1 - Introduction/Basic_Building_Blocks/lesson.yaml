@@ -17,7 +17,8 @@
     Alternatively, a simple web search often yields the answer you're looking for.
 
 - Class: cmd_question
-  Output: In its simplest form, R can be used as an interactive calculator. Type 5 + 7 and press Enter.
+  Output: In its simplest form, R can be used as an interactive calculator. Type
+    5 + 7 and press Enter.
   CorrectAnswer: 5 + 7
   AnswerTests: omnitest(correctExpr='5 + 7')
   Hint: Type 5 + 7 and press Enter.
@@ -244,10 +245,24 @@
   Hint: If your programming environment doesn't support auto-completion, just type my_div and hit Enter to move on.
 
 - Class: mult_question
-  Output: You will now be redirected to Google Forms to submit your the log file of this lesson.
+  Output: How difficult was this lesson?
+  CorrectAnswer: Skip answer
+  AnswerChoices: Difficult;Neither difficult nor easy;Easy;Skip answer
+  AnswerTests: omnitest(correctVal='Difficult')|omnitest(correctVal='Neither difficult nor easy')|omnitest(correctVal='Easy')|omnitest(correctVal='Skip answer')
+  Hint: ""
+  
+- Class: mult_question
+  Output: Did you learn something from this lesson?
+  CorrectAnswer: Skip answer
+  AnswerChoices: Yes;No;Skip answer
+  AnswerTests: omnitest(correctVal='Yes')|omnitest(correctVal='No')|omnitest(correctVal='Skip answer')
+  Hint: ""
+
+- Class: mult_question
+  Output: You will now be redirected to Google Forms to submit your the log file for this lesson.
   AnswerChoices: Ok
   CorrectAnswer: NULL
   AnswerTests: submit_log()
-  Hint: hint
+  Hint: ""
   
   
