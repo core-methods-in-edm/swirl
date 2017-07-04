@@ -327,9 +327,22 @@
   Output: Congratulations! We hope you enjoyed the 6 activities and 500+ features of this lesson.
 
 - Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so
-    that your instructor may evaluate your progress?
-  AnswerChoices: Yes;No
+  Output: How difficult was this lesson?
+  CorrectAnswer: Skip answer
+  AnswerChoices: Difficult;Neither difficult nor easy;Easy;Skip answer
+  AnswerTests: omnitest(correctVal='Difficult')|omnitest(correctVal='Neither difficult nor easy')|omnitest(correctVal='Easy')|omnitest(correctVal='Skip answer')
+  Hint: ""
+  
+- Class: mult_question
+  Output: Did you learn something from this lesson?
+  CorrectAnswer: Skip answer
+  AnswerChoices: Yes;No;Skip answer
+  AnswerTests: omnitest(correctVal='Yes')|omnitest(correctVal='No')|omnitest(correctVal='Skip answer')
+  Hint: ""
+
+- Class: mult_question
+  Output: You will now be redirected to Google Forms to submit your the log file for this lesson.
+  AnswerChoices: Ok
   CorrectAnswer: NULL
   AnswerTests: submit_log()
-  Hint: hint
+  Hint: ""
