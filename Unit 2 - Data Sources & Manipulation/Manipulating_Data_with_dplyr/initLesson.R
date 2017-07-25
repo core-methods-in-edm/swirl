@@ -3,7 +3,7 @@
 # filepath <- paste0('~/', basename(logurl))
 # download.file(logurl, filepath)
 # cranlog <- read.csv(filepath)
-# write.csv(cranlog, 'Getting_and_Cleaning_Data/Manipulating_Data_with_dplyr/2014-07-08.csv')
+# write.csv(cranlog, 'Unit 2 - Data Sources & Manipulation/Manipulating_Data_with_dplyr/2014-07-08.csv')
 # unlink(filepath)
 
 # For compatibility with 2.2.21
