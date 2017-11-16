@@ -9,7 +9,7 @@ library(datasets)
 }
 
 path_to_course <- file.path(.get_course_path(),
-	"Exploratory_Data_Analysis","Graphics_Devices_in_R")
+	"Unit 3 - Structure Discovery","Graphics_Devices_in_R")
 
 try(dev.off(),silent=TRUE)
 plot.new()

@@ -10,7 +10,7 @@ library(jpeg)
 
 # Put initialization code in this file.
 path_to_course <- file.path(.get_course_path(),
-	"Exploratory_Data_Analysis","Principles_of_Analytic_Graphs")
+	"Unit 3 - Structure Discovery","Principles_of_Analytic_Graphs")
 plot.new()
 
 swirl_options(swirl_logging = TRUE)
