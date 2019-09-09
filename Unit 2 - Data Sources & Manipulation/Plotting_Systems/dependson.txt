@@ -1,5 +1,0 @@
-ggplot2
-lattice
-jpeg
-
-base64enc
