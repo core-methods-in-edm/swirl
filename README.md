@@ -28,6 +28,7 @@ You should see the message: `All courses uninstalled successfully!`
 
 * At the completion of the lesson you will submit your answers through a Google form. 
 * **You will need to be signed in to MyTC to submit the form.** 
-* **Please copy and paste the code from the form and save it in a text file just in case it does not work** 
+* **Please copy and paste the code from the form and save it in a text file just in case it does not work**
+* **Press the "submit" button**
 
 We will collect information on how many questions you answer, how many attempts you took to answer each question and the time you answered. Please use your TC email address on the form
