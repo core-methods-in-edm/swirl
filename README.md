@@ -13,11 +13,7 @@ Swirl is a teaching tool for learning R, it comprises questions and answers and 
 * Install the Swirl package by clicking the "packages" tab in the right hand pane and then clicking "install" or by typing `install.packages("swirl")` in the console window (located on the left hand side of the RStudio interface). 
 * Once we have installed the package we need to turn it on, we do this by inputing the code `library(swirl)` - Swirl will tell you to type `swirl()` **but don't do that just yet!**
 * First, make sure that there are no lessons already loaded. Type the following code: `uninstall_all_courses(force = FALSE)`. You should see the following:
-`Are you sure you want to uninstall all swirl courses? This will delete all of the
-| contents of your swirl course directory.
-
-1: Yes
-2: No`
+`Are you sure you want to uninstall all swirl courses? | This will delete all of the contents of your swirl course directory.`
 
 Choose 1
 
