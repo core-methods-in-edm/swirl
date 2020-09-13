@@ -347,7 +347,7 @@
   Hint: ""
 
 - Class: mult_question
-  Output: You will now be redirected to Google Forms to submit your the log file for this lesson.
+  Output: You will now be redirected to Google Forms to submit your the log file for this lesson. You must be connected to the internet and be logged into MyTC. Please make a copy of the code in the form for your reference.
   AnswerChoices: Ok
   CorrectAnswer: NULL
   AnswerTests: submit_log()

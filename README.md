@@ -7,6 +7,8 @@ Swirl is a teaching tool for learning R, it comprises questions and answers and 
 * **Install Swirl**
 * **Download the units from Github**
 * **Create a user ID that is your UNI (the first 4-6 numbers/letters at the start of your TC email address)**
+* **After completing a lesson you will be directed to a Google Form - you need to be connected to the internet and logged into MyTC**
+* **Just in case the form does not work please copy and paste the code from the form into a text document and save it**
 
 ## Details
 
@@ -15,7 +17,7 @@ Swirl is a teaching tool for learning R, it comprises questions and answers and 
 * First, make sure that there are no lessons already loaded. Type the following code: `uninstall_all_courses(force = FALSE)`. You should see the following:
 `Are you sure you want to uninstall all swirl courses? | This will delete all of the contents of your swirl course directory.`
 
-Choose 1
+* Type `1`
 
 You should see the message: `All courses uninstalled successfully!`
 
@@ -24,4 +26,8 @@ You should see the message: `All courses uninstalled successfully!`
 
 * Once the lesson finishes installing type `swirl()`, Swirl will then guide you through setting up a user ID, **- please use your UNI  (the first 4-6 numbers/letters at the start of your TC email address** so we can identify you later. Choose the `Unit 1 - Introduction` course and the `Basic Building Blocks` lesson when you have the option.
 
-* At the completion of the lesson you will submit your answers through a Google form. We will collect information on how many questions you answer, how many attempts you took to answer each question and the time you answered
+* At the completion of the lesson you will submit your answers through a Google form. 
+* **You will need to be signed in to MyTC to submit the form.** 
+* **Please copy and paste the code from the form and save it in a text file just in case it does not work** 
+
+We will collect information on how many questions you answer, how many attempts you took to answer each question and the time you answered. Please use your TC email address on the form
