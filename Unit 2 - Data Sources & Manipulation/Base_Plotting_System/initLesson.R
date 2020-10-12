@@ -1,5 +1,6 @@
 library(jpeg)
 library(datasets)
+library(ggplot2)
 
 # For compatibility with 2.2.21
 .get_course_path <- function(){

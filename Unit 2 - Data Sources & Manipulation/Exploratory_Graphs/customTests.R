@@ -33,37 +33,6 @@ getExpr <- function(){
   getState()$expr
 }
 
-coursera_on_demand <- function(){
-  selection <- getState()$val
-  if(selection == "Yes"){
-    email <- readline("What is your email address? ")
-    token <- readline("What is your assignment token? ")
-    
-    payload <- sprintf('{  
-      "assignmentKey": "rUYDc68cEeWuqgro24JvYQ",
-      "submitterEmail": "%s",  
-      "secret": "%s",  
-      "parts": {  
-        "9aniR": {  
-          "output": "correct"  
-        }  
-      }  
-    }', email, token)
-    url <- 'https://www.coursera.org/api/onDemandProgrammingScriptSubmissions.v1'
-  
-    respone <- httr::POST(url, body = payload)
-    if(respone$status_code >= 200 && respone$status_code < 300){
-      message("Grade submission succeeded!")
-    } else {
-      message("Grade submission failed.")
-      message("Press ESC if you want to exit this lesson and you")
-      message("want to try to submit your grade at a later time.")
-      return(FALSE)
-    }
-  }
-  TRUE
-}
-
 #Submit to Google Forms
 
 # Get the swirl state
@@ -103,6 +72,6 @@ submit_log <- function(){
                         datetime = p(log_$datetime, nrow_, NA),
                         stringsAsFactors = FALSE)
   write.csv(log_tbl, file = temp, row.names = FALSE)
-  encoded_log <- base64enc(temp)
+  encoded_log <- base64encode(temp)
   browseURL(paste0(pre_fill_link, encoded_log))
 }
